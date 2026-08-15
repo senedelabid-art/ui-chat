@@ -1,0 +1,4 @@
+staticSites:
+  - name: manbr-chat
+    buildCommand: "curl -s https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.19.0-stable.tar.xz | tar xJ && export PATH=$PATH:`pwd`/flutter/bin && flutter build web"
+    publishPath: "build/web"
